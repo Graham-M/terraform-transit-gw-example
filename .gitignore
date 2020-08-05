@@ -1,0 +1,20 @@
+.terraform/*
+*/.terraform/*
+*.terraform.plan
+terraform.plan
+*.bak
+*.zip
+*.swp
+*.DS_Store
+*.map
+*.log
+.coverage
+.idea/
+.ipynb_checkpoints
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+__pycache__/
+*.py[cod]
